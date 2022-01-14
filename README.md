@@ -3,19 +3,18 @@
 
 ## 參考影片
 
-
-[WebView](https://www.youtube.com/watch?v=2cWbepS1NZM)
-[Splash Screen](https://www.youtube.com/watch?v=2cWbepS1NZM)
-[App Icon](https://www.youtube.com/watch?v=ts98gL1JCQU)
+- [WebView](https://www.youtube.com/watch?v=2cWbepS1NZM)
+- [Splash Screen](https://www.youtube.com/watch?v=2cWbepS1NZM)
+- [App Icon](https://www.youtube.com/watch?v=ts98gL1JCQU)
 
 ## 工具
-[PNG to SVG](https://www.pngtosvg.com)
-[SVG to VectorDrawable](http://inloop.github.io/svg2android)
+- [PNG to SVG](https://www.pngtosvg.com)
+- [SVG to VectorDrawable](http://inloop.github.io/svg2android)
 
 ## 參考問答
-[What do I use now that Handler() is deprecated](https://stackoverflow.com/a/63851895/5134658)
-[Cannot resolve constructor (Android Intent)](https://stackoverflow.com/a/30965303/5134658)
-[Why SVG failing to load in Vector Asset Studio](https://stackoverflow.com/a/36910140/5134658)
+- [What do I use now that Handler() is deprecated](https://stackoverflow.com/a/63851895/5134658)
+- [Cannot resolve constructor (Android Intent)](https://stackoverflow.com/a/30965303/5134658)
+- [Why SVG failing to load in Vector Asset Studio](https://stackoverflow.com/a/36910140/5134658)
 
 
 ## 步驟&概念
