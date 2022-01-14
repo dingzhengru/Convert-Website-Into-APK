@@ -17,10 +17,12 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        String url = "https://apph.caza7.re888show.com";
+
         myWebView = (WebView) findViewById(R.id.myWebView);
         myWebView.setWebViewClient(new WebViewClient());
 //        myWebView.setWebViewClient(new myWebClient());
-        myWebView.loadUrl("https://google.com");
+        myWebView.loadUrl(url);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
