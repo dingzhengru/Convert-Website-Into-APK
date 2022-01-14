@@ -2,18 +2,20 @@
 測試利用 Android Studio 的 WebView 並打包成 APK
 
 ## 參考影片
-[https://www.youtube.com/watch?v=2cWbepS1NZM](WebView)
-[https://www.youtube.com/watch?v=2cWbepS1NZM](Splash Screen)
-[https://www.youtube.com/watch?v=ts98gL1JCQU](App Icon)
+
+
+[WebView](https://www.youtube.com/watch?v=2cWbepS1NZM)
+[Splash Screen](https://www.youtube.com/watch?v=2cWbepS1NZM)
+[App Icon](https://www.youtube.com/watch?v=ts98gL1JCQU)
 
 ## 工具
-[https://www.pngtosvg.com](PNG to SVG)
-[http://inloop.github.io/svg2android](SVG to VectorDrawable)
+[PNG to SVG](https://www.pngtosvg.com)
+[SVG to VectorDrawable](http://inloop.github.io/svg2android)
 
 ## 參考問答
-[https://stackoverflow.com/a/63851895/5134658](What do I use now that Handler() is deprecated)
-[https://stackoverflow.com/a/30965303/5134658](Cannot resolve constructor (Android Intent))
-[https://stackoverflow.com/a/36910140/5134658](Why SVG failing to load in Vector Asset Studio)
+[What do I use now that Handler() is deprecated](https://stackoverflow.com/a/63851895/5134658)
+[Cannot resolve constructor (Android Intent)](https://stackoverflow.com/a/30965303/5134658)
+[Why SVG failing to load in Vector Asset Studio](https://stackoverflow.com/a/36910140/5134658)
 
 
 ## 步驟&概念
