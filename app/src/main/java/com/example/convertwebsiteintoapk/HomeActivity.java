@@ -17,7 +17,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        String url = "https://apph.caza7.re888show.com";
+//        String url = "https://apph.caza7.re888show.com";
+        String url = "https://google.com";
 
         myWebView = (WebView) findViewById(R.id.myWebView);
         myWebView.setWebViewClient(new WebViewClient());
@@ -45,7 +46,7 @@ public class HomeActivity extends AppCompatActivity {
         if (myWebView.canGoBack()) {
             myWebView.goBack();
         } else {
-            super.onBackPressed();
+//            super.onBackPressed();
         }
     }
 }

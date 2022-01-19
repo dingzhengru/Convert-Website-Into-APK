@@ -25,4 +25,15 @@ public class MainActivity extends AppCompatActivity {
             }
         }, 500);
     }
+
+//    protected void  onStart() {
+//        super.onStart();
+//        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+//                startActivity(intent);
+//            }
+//        }, 500);
+//    }
 }
