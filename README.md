@@ -19,8 +19,9 @@
 ## keystore
 
 - [Android Studio：Keystore 建立與管理](https://medium.com/@kentchen_tw/android-studio-keystore-%E5%BB%BA%E7%AB%8B%E8%88%87%E7%AE%A1%E7%90%86-47d4afcc6e61)
-- [Android Studio - debug keystore](https://stackoverflow.com/a/18212890/5134658)
 - [How can I create a keystore?](https://stackoverflow.com/questions/3997748/how-can-i-create-a-keystore)
+- [Android Studio - debug keystore](https://stackoverflow.com/a/18212890/5134658)
+- [I don't remember my android debug.keystore password](https://stackoverflow.com/a/42858945/5134658)
 
 
 ## 步驟&概念
