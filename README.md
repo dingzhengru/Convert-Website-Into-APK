@@ -23,6 +23,11 @@
 - [Android Studio - debug keystore](https://stackoverflow.com/a/18212890/5134658)
 - [I don't remember my android debug.keystore password](https://stackoverflow.com/a/42858945/5134658)
 
+## 自訂顏色
+可以於 res/values/colors.xml 新增自己想要的顏色，就可用於狀態欄或其他
+
+## 修改狀態欄顏色 (statusBarColor)
+至 res/values/themes 修改 `<item name="android:statusBarColor"></item>`
 
 ## 步驟&概念
 
