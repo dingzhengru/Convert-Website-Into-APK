@@ -15,7 +15,11 @@
 - [What do I use now that Handler() is deprecated](https://stackoverflow.com/a/63851895/5134658)
 - [Cannot resolve constructor (Android Intent)](https://stackoverflow.com/a/30965303/5134658)
 - [Why SVG failing to load in Vector Asset Studio](https://stackoverflow.com/a/36910140/5134658)
+
+## keystore
+
 - [How can I create a keystore?](https://stackoverflow.com/questions/3997748/how-can-i-create-a-keystore)
+- [Android Studio：Keystore 建立與管理](https://medium.com/@kentchen_tw/android-studio-keystore-%E5%BB%BA%E7%AB%8B%E8%88%87%E7%AE%A1%E7%90%86-47d4afcc6e61)
 
 ## 步驟&概念
 
