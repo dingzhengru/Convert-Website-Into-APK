@@ -18,7 +18,9 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
 //        String url = "https://apph.caza7.re888show.com";
-        String url = "https://google.com";
+//        String url = "https://m.qa.rc68.sbs";
+        String url = "https://m.caza7.rc65.sbs";
+
 
         myWebView = (WebView) findViewById(R.id.myWebView);
         myWebView.setWebViewClient(new WebViewClient());
@@ -26,6 +28,8 @@ public class HomeActivity extends AppCompatActivity {
         myWebView.loadUrl(url);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webSettings.setAppCacheEnabled(true);
+        webSettings.setDomStorageEnabled(true);
     }
 
     public class myWebClient extends WebViewClient {

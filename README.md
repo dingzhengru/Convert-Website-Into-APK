@@ -55,3 +55,14 @@ HomeActivity 就當作主內容 (WebView)
 android:icon="@mipmap/ic_launcher_test"
 android:roundIcon="@mipmap/ic_launcher_test_round"
 ```
+
+### WebView 設定
+``` java
+myWebView = (WebView) findViewById(R.id.myWebView);
+myWebView.setWebViewClient(new WebViewClient());
+myWebView.loadUrl(url);
+WebSettings webSettings = myWebView.getSettings();
+webSettings.setJavaScriptEnabled(true);
+webSettings.setAppCacheEnabled(true);
+webSettings.setDomStorageEnabled(true);
+```
