@@ -15,6 +15,7 @@
 - [What do I use now that Handler() is deprecated](https://stackoverflow.com/a/63851895/5134658)
 - [Cannot resolve constructor (Android Intent)](https://stackoverflow.com/a/30965303/5134658)
 - [Why SVG failing to load in Vector Asset Studio](https://stackoverflow.com/a/36910140/5134658)
+- [Webview stuck on loading website or cloudfare check](https://stackoverflow.com/a/55449573/5134658)
 
 ## keystore
 
