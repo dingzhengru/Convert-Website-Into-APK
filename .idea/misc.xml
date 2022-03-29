@@ -4,11 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/drawable-v24/IOS_1242x2208.xml" value="0.35" />
+        <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/drawable-v24/Naga555_splash.xml" value="0.17083333333333334" />
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/drawable-v24/background_splash.xml" value="0.287962962962963" />
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2453125" />
+        <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/drawable-v24/naga555_background_splash.xml" value="0.19791666666666666" />
+        <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/drawable-v24/naga555_splash.xml" value="0.17083333333333334" />
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2453125" />
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/layout/activity_home.xml" value="0.3134057971014493" />
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/layout/activity_main.xml" value="0.3134057971014493" />
+        <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2125" />
+        <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/mipmap-anydpi-v26/ic_launcher_naga555.xml" value="0.18541666666666667" />
+        <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/mipmap-anydpi-v26/ic_launcher_naga555_round.xml" value="0.18541666666666667" />
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2453125" />
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/mipmap-anydpi-v26/ic_launcher_test.xml" value="0.2453125" />
         <entry key="..\:/Android/ConvertWebsiteIntoAPK/app/src/main/res/mipmap-anydpi-v26/ic_launcher_test_round.xml" value="0.2453125" />

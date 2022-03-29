@@ -4,7 +4,7 @@
 ## 參考影片
 
 - [WebView](https://www.youtube.com/watch?v=2cWbepS1NZM)
-- [Splash Screen](https://www.youtube.com/watch?v=2cWbepS1NZM)
+- [Splash Screen](https://www.youtube.com/watch?v=Q0gRqbtFLcw)
 - [App Icon](https://www.youtube.com/watch?v=ts98gL1JCQU)
 
 ## 工具
@@ -43,6 +43,7 @@ MainActivity 就當作 Splash Screen 設計，另外新增 Activity (HomeActivit
 HomeActivity 就當作主內容 (WebView)
 於 MainActivity 設置延遲 (Handler) 開啟 HomeActivity，就有 Splash Screen 的效果
 
+(但此方法 png 轉 svg 圖片可能長不同，建議直接使用 svg 並照上面影片製成)
 將圖片做成 Splash Screen，使用工具中 "PNG to SVG"、"SVG to VectorDrawable"
 最後將 xml 放入 res/drawable，再於指定 layout 設置 android:background 即可
 
