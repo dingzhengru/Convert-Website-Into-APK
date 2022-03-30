@@ -18,6 +18,7 @@
 - [Cannot resolve constructor (Android Intent)](https://stackoverflow.com/a/30965303/5134658)
 - [Why SVG failing to load in Vector Asset Studio](https://stackoverflow.com/a/36910140/5134658)
 - [Webview stuck on loading website or cloudfare check](https://stackoverflow.com/a/55449573/5134658)
+- [How do I make a splash screen?](https://stackoverflow.com/a/5486970/5134658)
 
 ## keystore
 
@@ -41,13 +42,50 @@
 
 ### Splash Screen
 
+*可以將 png 直接移到 drawable 使用，不一定要用 svg, psd*
+
+#### 製作 drawable 步驟
+可以直接參考此影片: [Splash Screen(How to make a Splash Screen without extra Activity in Android) ](https://www.youtube.com/watch?v=rIHArmoq9f8)
+
+在 res/drawable 點右鍵 => new => Drawable Resource File => 取檔名 => ok => 將內容改成下面格式 => android:drawable 改指定的圖片
+```
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/naga555_splash"></item>
+</layer-list>
+```
+
+#### 方法一 (推薦)
+參考此影片: [Splash Screen(How to make a Splash Screen without extra Activity in Android) ](https://www.youtube.com/watch?v=rIHArmoq9f8)
+參考文章: [Splash Screen in Android: The Right Way](https://medium.com/android-news/launch-screen-in-android-the-right-way-aca7e8c31f52)
+
+res/values/themes 新增 theme
+```
+<style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+    <item name="android:windowBackground">@drawable/naga555_splash</item>
+</style>
+```
+
+manifests/AndroidManifest.xml 更改 theme
+```
+<application android:theme="@style/SplashTheme">
+```
+
+java/activity 在 super.onCreate 之前放 setTheme
+```java
+setTheme(R.style.SplashTheme);
+```
+
+#### 方法二
+
 MainActivity 就當作 Splash Screen 設計，另外新增 Activity (HomeActivity)
 HomeActivity 就當作主內容 (WebView)
 於 MainActivity 設置延遲 (Handler) 開啟 HomeActivity，就有 Splash Screen 的效果
 
-(但此方法 png 轉 svg 圖片可能長不同，建議直接使用 svg 並照上面影片製成)
-將圖片做成 Splash Screen，使用工具中 "PNG to SVG"、"SVG to VectorDrawable"
-最後將 xml 放入 res/drawable，再於指定 layout 設置 android:background 即可
+
+
+
 
 ### App Icon
 
