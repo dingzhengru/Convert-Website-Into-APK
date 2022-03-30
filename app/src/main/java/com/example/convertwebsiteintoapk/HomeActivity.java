@@ -19,7 +19,6 @@ public class HomeActivity extends AppCompatActivity {
 
         String url = "https://m.naga555.com";
 
-
         myWebView = (WebView) findViewById(R.id.myWebView);
         myWebView.setWebViewClient(new WebViewClient());
 //        myWebView.setWebViewClient(new myWebClient());

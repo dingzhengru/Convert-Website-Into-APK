@@ -4,7 +4,9 @@
 ## 參考影片
 
 - [WebView](https://www.youtube.com/watch?v=2cWbepS1NZM)
-- [Splash Screen](https://www.youtube.com/watch?v=Q0gRqbtFLcw)
+- [Splash Screen(Splash Screen - Android Studio Tutorial) ](https://www.youtube.com/watch?v=Q0gRqbtFLcw)
+- [Splash Screen(How to create Splash Screen in Android Studio | Java) ](https://www.youtube.com/watch?v=1dnM0-D5CDo)
+- [Splash Screen(How to make a Splash Screen without extra Activity in Android) ](https://www.youtube.com/watch?v=rIHArmoq9f8)
 - [App Icon](https://www.youtube.com/watch?v=ts98gL1JCQU)
 
 ## 工具
