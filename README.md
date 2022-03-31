@@ -98,6 +98,11 @@ android:icon="@mipmap/ic_launcher_test"
 android:roundIcon="@mipmap/ic_launcher_test_round"
 ```
 
+#### 透明 app icon (當 app icon 背景單色會很怪的時候)
+主要是 icon type 選擇 Lagacy only，並且要分別創建 square & circle 的
+1. 於 res 點右鍵 => New => Image Asset => icon type 選擇 Lagacy only => shape 選 square
+2. 前面都跟 1 相同 => shape 選 circle (檔名後面加 _round)
+
 ### WebView 設定
 ``` java
 myWebView = (WebView) findViewById(R.id.myWebView);

@@ -10,7 +10,7 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-<!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
 
         <!-- Customize your theme here. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
@@ -18,6 +18,66 @@
 
     <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
-        <item name="android:windowBackground">@drawable/naga555_splash</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="SplashThemeBestWin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_bestwin</item>
+    </style>
+
+    <style name="SplashThemeCaesar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_caesar</item>
+    </style>
+
+    <style name="SplashThemeFin99" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_fin99</item>
+    </style>
+
+    <style name="SplashThemeGClub8" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_gclub8</item>
+    </style>
+
+    <style name="SplashThemeLionKing" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_lionking</item>
+    </style>
+
+    <style name="SplashThemeMaxPlay168" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_maxplay168</item>
+    </style>
+
+    <style name="SplashThemeMaxWin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_maxwin</item>
+    </style>
+
+    <style name="SplashThemeMegaBet8" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_megabet8</item>
+    </style>
+
+    <style name="SplashThemeNaga555" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_naga555</item>
+    </style>
+
+    <style name="SplashThemeRabbit168" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_rabbit168</item>
+    </style>
+
+    <style name="SplashThemeStarBets" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_starbets</item>
+    </style>
+
+    <style name="SplashThemeVegus168" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_vegus168</item>
     </style>
 </resources>

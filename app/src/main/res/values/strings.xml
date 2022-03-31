@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Naga555</string>
+    <string name="app_name">CazaTest</string>
+    <string name="app_name_bestwin">Bestwin</string>
+    <string name="app_name_Caesar">Caesar</string>
+    <string name="app_name_fin99">Fin99</string>
+    <string name="app_name_gclub8">Gclub8</string>
+    <string name="app_name_lion_king">LionKing</string>
+    <string name="app_name_maxplay168">Maxplay168</string>
+    <string name="app_name_maxwin">Maxwin</string>
+    <string name="app_name_megabet8">Megabet8</string>
+    <string name="app_name_naga555">Naga555</string>
+    <string name="app_name_rabbit168">Rabbit168</string>
+    <string name="app_name_starBets">StarBets</string>
+    <string name="app_name_vegus168">Vegus168</string>
 </resources>

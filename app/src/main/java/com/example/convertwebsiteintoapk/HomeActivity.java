@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -17,7 +18,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        String url = "https://m.naga555.com";
+//        String url = "https://m.naga555.com";
+        String url = "https://m.caza7.re888show.com";
 
         myWebView = (WebView) findViewById(R.id.myWebView);
         myWebView.setWebViewClient(new WebViewClient());
@@ -29,6 +31,10 @@ public class HomeActivity extends AppCompatActivity {
         webSettings.setDomStorageEnabled(true);
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
+        // 是否允許自動打開彈窗
+        webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
+        // 是否允許多開視窗
+        webSettings.setSupportMultipleWindows(true);
     }
 
     public class myWebClient extends WebViewClient {
