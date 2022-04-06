@@ -27,6 +27,10 @@
 - [Android Studio - debug keystore](https://stackoverflow.com/a/18212890/5134658)
 - [I don't remember my android debug.keystore password](https://stackoverflow.com/a/42858945/5134658)
 
+## 修改 package
+- [Rename package in Android Studio](https://stackoverflow.com/a/29092698/5134658)
+- [同时安装一个app的两个版本之Android Studio修改包名](https://blog.csdn.net/weixin_41552069/article/details/118571955)
+
 ## 自訂顏色
 可以於 res/values/colors.xml 新增自己想要的顏色，就可用於狀態欄或其他
 
@@ -113,3 +117,8 @@ webSettings.setJavaScriptEnabled(true);
 webSettings.setAppCacheEnabled(true);
 webSettings.setDomStorageEnabled(true);
 ```
+
+## 修改 package
+為了將所有 apk 視為不同的，且可以同時安裝
+
+對 java/com.example.xxx 右鍵 => Refactor/Rename => Rename Package => Refactor(修改沒變，就 Build/Clean Project) => 修改 build.gradle 的 applicationId (改完後，點 sync now)

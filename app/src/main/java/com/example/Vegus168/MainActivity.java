@@ -1,8 +1,7 @@
-package com.example.convertwebsiteintoapk;
+package com.example.Vegus168;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.pm.PackageManager;
 //import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
@@ -11,7 +10,6 @@ import android.os.Bundle;
 import android.content.Intent;
 //import android.os.Handler;
 //import android.os.Looper;
-import android.util.Log;
 import android.webkit.URLUtil;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -27,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String url = "https://m.caza7.re888show.com";
+//        String url = "https://m.caza7.re888show.com";
 //        String url = "https://m.bestwin99.net";
 //        String url = "https://m.caesar88.org";
 //        String url = "https://m.fin99.net";
@@ -39,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 //        String url = "https://m.naga555.com";
 //        String url = "https://m.rabbit168.com";
 //        String url = "https://m.starbets99.com";
-//        String url = "https://m.168vegus.com";
+        String url = "https://m.168vegus.com";
 
         myWebView = (WebView) findViewById(R.id.myWebView);
 //        myWebView.setWebViewClient(new WebViewClient());

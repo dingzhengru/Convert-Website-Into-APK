@@ -1,11 +1,10 @@
-package com.example.convertwebsiteintoapk;
+package com.example.Vegus168;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
 
-import android.util.Log;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
