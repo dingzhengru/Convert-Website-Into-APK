@@ -6,7 +6,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.example.Vegus168"
+        applicationId "com.example.ibet699"
         minSdk 19
         targetSdk 30
         versionCode 1

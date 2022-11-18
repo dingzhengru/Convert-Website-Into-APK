@@ -80,4 +80,9 @@
         <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
         <item name="android:windowBackground">@drawable/splash_vegus168</item>
     </style>
+
+    <style name="SplashThemeIbet699" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
+        <item name="android:windowBackground">@drawable/splash_ibet699</item>
+    </style>
 </resources>

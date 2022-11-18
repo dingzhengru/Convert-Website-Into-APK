@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.Vegus168">
+    package="com.example.cazatest">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,20 +9,20 @@
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:supportsRtl="true"
-        android:icon="@mipmap/ic_launcher_vegus168"
-        android:roundIcon="@mipmap/ic_launcher_vegus168_round"
-        android:label="@string/app_name_vegus168"
-        android:theme="@style/SplashThemeVegus168">
+        android:icon="@mipmap/ic_launcher_ibet699"
+        android:roundIcon="@mipmap/ic_launcher_ibet699"
+        android:label="@string/app_name_ibet699"
+        android:theme="@style/SplashThemeIbet699">
 <!--   android:theme="@style/Theme.ConvertWebsiteIntoAPK"     -->
         <activity
-            android:name="com.example.Vegus168.HomeActivity"
+            android:name="com.example.cazatest.HomeActivity"
             android:label="Home"
             android:screenOrientation="portrait" />
 
         <!--            android:screenOrientation="landscape" -->
         <!--            android:screenOrientation="portrait" -->
         <activity
-            android:name="com.example.Vegus168.MainActivity"
+            android:name="com.example.cazatest.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

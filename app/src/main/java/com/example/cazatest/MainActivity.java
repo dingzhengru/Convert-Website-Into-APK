@@ -1,4 +1,4 @@
-package com.example.Vegus168;
+package com.example.cazatest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
 //        String url = "https://m.naga555.com";
 //        String url = "https://m.rabbit168.com";
 //        String url = "https://m.starbets99.com";
-        String url = "https://m.168vegus.com";
+//        String url = "https://m.168vegus.com";
+        String url = "https://appv.rcappaf101.xyz";
 
         myWebView = (WebView) findViewById(R.id.myWebView);
 //        myWebView.setWebViewClient(new WebViewClient());
