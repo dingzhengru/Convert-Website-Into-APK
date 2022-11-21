@@ -9,10 +9,10 @@
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:supportsRtl="true"
-        android:icon="@mipmap/ic_launcher_ibet699"
-        android:roundIcon="@mipmap/ic_launcher_ibet699"
-        android:label="@string/app_name_ibet699"
-        android:theme="@style/SplashThemeIbet699">
+        android:icon="@mipmap/ic_launcher_bet699"
+        android:roundIcon="@mipmap/ic_launcher_bet699"
+        android:label="@string/app_name_bet699"
+        android:theme="@style/SplashThemeBet699">
 <!--   android:theme="@style/Theme.ConvertWebsiteIntoAPK"     -->
         <activity
             android:name="com.example.cazatest.HomeActivity"

@@ -63,7 +63,7 @@
 參考此影片: [Splash Screen(How to make a Splash Screen without extra Activity in Android) ](https://www.youtube.com/watch?v=rIHArmoq9f8)
 參考文章: [Splash Screen in Android: The Right Way](https://medium.com/android-news/launch-screen-in-android-the-right-way-aca7e8c31f52)
 
-res/values/themes 新增 theme
+res/values/themes/themes.xml 新增 theme
 ```
 <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
     <item name="android:statusBarColor" tools:targetApi="l">@color/my_color</item>
